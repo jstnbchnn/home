@@ -53,7 +53,7 @@ function removeText(element) {
         element.innerText  = initialText.substring(0, initialText.length - 2) + '|'
         return
       }
-      console.log(['third', ]);
+
       element.innerText = ''
       clearInterval(removeTextInterval)
       resolve();

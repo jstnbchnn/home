@@ -48,10 +48,11 @@ body {
   width: 30px;
 }
 
-#twitter {
-  display: none;
+.social {
+  padding: 10px;
 }
 
-.twitter-icon:hover {
-  background-color: red;
+.social-wrapper {
+  display: flex;
+  align-items: center;
 }
