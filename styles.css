@@ -1,0 +1,57 @@
+:root {
+  --main-color: rgba(127, 166, 126, 0.8);
+  --grey-color: rgba(205, 201, 193, 0.1);
+  --secondary-colour: rgba(200, 126, 116, 0.7);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: var(--grey-color);
+}
+
+.text-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#preText {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#postText {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  flex: 1;
+}
+
+#twitter-icon {
+  height: 30px;
+  width: 30px;
+}
+
+#twitter {
+  display: none;
+}
+
+.twitter-icon:hover {
+  background-color: red;
+}
