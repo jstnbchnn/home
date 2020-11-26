@@ -7,21 +7,24 @@
 body {
   width: 100vw;
   height: 100vh;
+  font-size: 18px;
+  background-color: var(--grey-color);
 }
 
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   height: 100%;
-  background-color: var(--grey-color);
+  margin-top: 8rem;
 }
 
 .text-wrapper {
   display: flex;
   width: 100%;
   justify-content: center;
+  font-size: 1.3rem;
+  margin: 3rem;
 }
 
 #preText {
@@ -43,16 +46,21 @@ body {
   flex: 1;
 }
 
-#twitter-icon {
-  height: 30px;
-  width: 30px;
+.link {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  color: unset;
 }
 
-.social {
-  padding: 10px;
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:visited {
+  color: unset;
 }
 
 .social-wrapper {
   display: flex;
-  align-items: center;
 }
